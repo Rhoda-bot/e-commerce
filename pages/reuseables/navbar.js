@@ -40,7 +40,7 @@ const Navbar = () => {
                                <a className="nav-link text-dark"> <i className="fa fa-pinterest"/></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark" href="/authentication/login" as="/login"><i className="fa fa-user"/> Login</a>
+                                <Link className="nav-link text-dark" href="/authentication/login" as="/login"><i className="fa fa-user"/> Login</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled">|</a>
@@ -64,7 +64,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <a className="navbar-brand" href="#">
-                        <img src="/images/logo.png" className="img-fluid" width={300}/>
+                        <img alt="logo" src="/images/logo.png" className="img-fluid" width={300}/>
                     </a>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
