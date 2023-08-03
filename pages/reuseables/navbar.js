@@ -40,7 +40,7 @@ const Navbar = () => {
                                <a className="nav-link text-dark"> <i className="fa fa-pinterest"/></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark" href="/login"><i className="fa fa-user"/> Login</a>
+                                <a className="nav-link text-dark" href="/authentication/login" as="/login"><i className="fa fa-user"/> Login</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled">|</a>

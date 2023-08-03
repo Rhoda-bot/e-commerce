@@ -1,3 +1,4 @@
+import Footer from '../reuseables/footer';
 import Navbar from '../reuseables/navbar'
 const Register = () => {
     return(
@@ -46,6 +47,7 @@ const Register = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }
