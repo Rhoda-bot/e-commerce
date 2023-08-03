@@ -30,7 +30,7 @@ const Login = () => {
                                     </div>
                                 </form>
                             </div>
-                            <p className='text-center py-4'>Don't have an account? Sign Up</p>
+                            <p className='text-center py-4'>Dont have an account? Sign Up</p>
                         </div>
                     </div>
                 </div>
