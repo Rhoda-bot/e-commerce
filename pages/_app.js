@@ -1,8 +1,8 @@
-import Head from "next/head"
-import Script from "next/script"
-import { Provider } from "react-redux"
-import { store } from "../redux/store"
-import '../styles/main.sass'
+import Head from "next/head";
+import Script from "next/script";
+import { Provider } from "react-redux";
+import { store } from "../redux/store";
+import '../styles/main.sass';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';

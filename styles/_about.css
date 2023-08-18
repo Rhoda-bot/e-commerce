@@ -1,4 +1,4 @@
-.video-background-holder{
+.video-background-holder {
   position: relative;
  background-color: black;
  height: calc(100vh - 72px);
@@ -25,7 +25,7 @@ position: absolute;
 } 
  
 
-.video-background-content{
+.video-background-content {
   position: relative;
   z-index: 2;
 }
