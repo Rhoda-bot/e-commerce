@@ -1,3 +1,8 @@
+import Image from 'next/image'
+import icon1 from '../../public/images/icon-service-1.png'
+import icon2 from '../../public/images/icon-service-2.png'
+import icon3 from '../../public/images/icon-service-3.png'
+import icon4 from '../../public/images/icon-service-4.png'
 const Services = () =>{
     return(
         <>
@@ -19,7 +24,7 @@ const Services = () =>{
                             <div className="row align-items-center justify-content-center  text-center">
                                 <div className="col-md-6 p-2">
                                     <div className="card services__cards--card border-0 rounded-0 h-100 p-3">
-                                        <img src="/images/icon-service-1.png" className="services__cards--img" width={70} height={70}/>
+                                        <Image src={icon1} className="services__cards--img" width={70} height={70}/>
                                         <div className="card-body">
                                             <p className="services__cards--text">Aerial Photography</p>
                                         </div>
@@ -27,7 +32,7 @@ const Services = () =>{
                                 </div>
                                 <div className="col-md-6 p-2"> 
                                     <div className="services__cards--card card border-0 rounded-0 h-100 p-3">
-                                        <img src="/images/icon-service-2.png" className="services__cards--img" width={70} height={70}/>
+                                        <Image src={icon2} className="services__cards--img" width={70} height={70}/>
                                         <div className="card-body">
                                             <p className="services__cards--text">Battery Production</p>
                                         </div>
@@ -36,7 +41,7 @@ const Services = () =>{
                                 </div>
                                 <div className="col-md-6  p-2"> 
                                     <div className="border-0 services__cards--card card border-0 p-3 h-100 rounded-0">
-                                        <img src="/images/icon-service-3.png" className="services__cards--img" width={70} height={70}/>
+                                        <Image src={icon3} className="services__cards--img" width={70} height={70}/>
                                         <div className="card-body">
                                             <p className="services__cards--text">Stem Production</p>
                                         </div>
@@ -44,7 +49,7 @@ const Services = () =>{
                                 </div>
                                 <div className="col-md-6 p-2"> 
                                     <div className="services__cards--card card border-0 p-3 h-100 rounded-0">
-                                        <img src="/images/icon-service-4.png" className="services__cards--img" width={70} height={70}/>
+                                        <Image src={icon4} className="services__cards--img" width={70} height={70}/>
                                        <div className="card-body">
                                        <p className="services__cards--text">Censors and Drone kits</p>
                                        </div>

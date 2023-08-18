@@ -1,8 +1,9 @@
 // Navbar.js
 
 import React, { useState } from 'react';
-import ToolBar from './toolbar';
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from '../../public/images/logo4-removebg-preview.png'
 
 
 const Navbar = () => {
@@ -31,7 +32,7 @@ const Navbar = () => {
           ) : null}
         </button>
         <Link href="/" className="navbar-brand navbars__brand">
-          <img src='/images/logo4-removebg-preview.png' className='img-fluid px-3 pb-2' width={150} height={20}/>
+          <Image src={logo} className='img-fluid px-3 pb-2' width={150} height={20}/>
         </Link>
 
         <ul className={`navbar-nav navbars__nav ml-auto ${showSidebar ? 'navbars__show' : ''}`}>

@@ -1,5 +1,8 @@
 import Footer from "./reuseables/footer";
 import Navbar from "./reuseables/menuBar";
+import Image from 'next/image'
+import drone from '../public/images/drone5.png'
+
 
 export default function About() {
     return (
@@ -21,7 +24,12 @@ export default function About() {
               </p>
             </div>
             <div className="w-50  banner__image">
-              <img src="/images/drone5.png" className="img-fluid banner__image--img"/>
+              {/* <img src="/images/drone5.png" className="img-fluid banner__image--img"/> */}
+              <Image 
+                src={drone}
+                alt="Drone"
+                className="img-fluid banner__image--img"
+              />
             </div>
           </div>
         </div>

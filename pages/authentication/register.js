@@ -1,11 +1,10 @@
 import Footer from '../reuseables/footer';
-import MenuBar from '../reuseables/menuBar';
-import Navbar from '../reuseables/navbar'
+import Navbar from '../reuseables/menuBar';
+
 const Register = () => {
     return(
         <>
-        {/* <Navbar /> */}
-        <MenuBar />
+        <Navbar />
         <div className="register">
             <div className="container">
                 <div className="row justify-content-center">

@@ -1,5 +1,6 @@
 import Footer from '../reuseables/footer';
-import Navbar from '../reuseables/navbar'
+import Navbar from '../reuseables/menuBar';
+
 const Login = () => {
     return(
         <>
